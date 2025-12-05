@@ -139,7 +139,7 @@ function Install-Bun {
   if ($IsBaseline) {
     $Target = "bun-windows-$Arch-baseline"
   }
-  $BaseURL = "https://gh.api.99988866.xyz/https://github.com/oven-sh/bun/releases"
+  $BaseURL = "https://ghfast.top/https://github.com/oven-sh/bun/releases"
   $URL = "$BaseURL/$(if ($Version -eq "latest") { "latest/download" } else { "download/$Version" })/$Target.zip"
 
   $ZipPath = "${BunBin}\$Target.zip"
